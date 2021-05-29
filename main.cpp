@@ -82,6 +82,8 @@ int main(int argc, char** argv) {
 					cout<<"Ingrese los errores: "<<endl;
 					cin>>error;
 					fs->getRoot()->agregarArchivo(new CPP(autor, nom, fs->getRoot(), linea, error));
+				} else if(op==2) {
+
 				}
 				cout<<"==============REGRESANDO AL MENU=============="<<endl;
 				break;
